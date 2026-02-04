@@ -18,3 +18,27 @@ Portfolio targets
 Clear README (scan in 60 seconds)
 Docs proving QA thinking (TEST_STRATEGY, RELIABILITY, TRIAGE)
 CI pipeline showing discipline (smoke PR + regression nightly)
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.venv*/
+
+# test artifacts
+playwright-report/
+test-results/
+allure-results/
+*.png
+*.zip
+*.har
+*.log
+
+# IDE
+.idea/
+.DS_Store
